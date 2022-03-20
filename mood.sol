@@ -13,7 +13,7 @@ contract MoodDiary{
     }
 
     //create a function that reads the mood from the smart contract
-    function getMood() public view returns(string memory){
+    function getMood() public view returns(string){
         return mood;
 
     }
